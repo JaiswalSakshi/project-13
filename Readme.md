@@ -6,14 +6,14 @@
 <br>
 
 ## Project live link
-[Project-13](# "Not yet")
+[https://my-project-13.netlify.app/](https://my-project-13.netlify.app/ "project13")
 
 <hr>
 
 ## Screenshot
-![](./screen-shots/01.png)
-![](./screen-shots/02.png)
-![](./screen-shots/03.png)
+![](./Screen-shots/01.png)
+![](./Screen-shots/02.png)
+![](./Screen-shots/03.png)
 
 <br>
 
