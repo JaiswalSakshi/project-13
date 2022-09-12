@@ -173,3 +173,75 @@ nav{
     margin-top: -10px;
     font-weight: 100;
 }
+
+/* responsive */
+@media screen and (max-width: 700px) {
+    .list-item{
+        display: none;
+    }
+    .button-register button{
+        margin-left: -150px;
+    }
+    /* first section */
+    .first-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .img-one img{
+        height: 80%;
+        width: 90%;
+        margin-left: 10px;
+    }
+    .contain1{
+        margin-left: 50px;
+        margin-top: 50px;
+        width: 80%;
+    }
+    .contain1 h1{
+        font-size: 25px;
+        width: 100%;
+    }
+    .contain1 p{
+        width: 100%;
+    }
+    /* second section */
+    .second-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .img-two img{
+        height: 80%;
+        width: 80%;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    .contain2{
+        margin-left: 50px;
+        margin-top: -50px;
+        width: 70%;
+    }
+    /* Third section */
+    .third-section{
+        width: 80%;
+        margin-left: 50px;
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    /* footer */
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    .footer-box{
+        margin-left: 50px;
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .footer-box img{
+        height: 30px;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+}
